@@ -1,43 +1,15 @@
 # Ignore Gradle project-specific cache directory
 .gradle
+.idea
 
 # Ignore Gradle build output directory
 build
-.idea/
-
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Build tool #
-##############
+out
+bin
 target
-.idea
+
+# Ignore files
 *.iml
-*.im
-*.ipr
-*.iws
-.settings
-.project
-.classpath
-
-# OS generated files #
-######################
-*~
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
-
-activemq-data
-*.epoch
 *.log
+/.classpath
+/.project
